@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Spline+Sans+Mono:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-lg{
+    background-color: rgb(123, 133, 237);
+    
+    height: 80px;
+    margin: 0 auto;
+}
+
+.header-black ul{
+    float: left;
+    margin-top: 25px;
+
+
+}
+
+.header-black ul li{
+    list-style: none;
+
+}
+
+.header-black a{
+    color: #ddd;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.text-list{
+    padding-top: 30px;
+    font-size: 25px;
+    color: #669933;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.list-product{
+    padding-top: 30px;
+}
+.list-product button{
+    width: 150px;
+    height: 50px;
+    background-color: #669933;
+    color: #ddd;
+    font-size: 15px;
+    font-weight: 700;
+}
+.product-bottom{
+    padding-top: 30px;
+}
+.name-product{
+ font-size: 20px;
+ font-family: 'Lato', sans-serif;
+ color: #669933;
+
+}
+
+
+.price-product{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+   
+   }
+
+
+   .footer{
+       background-color: rgb(0, 8, 96);
+   }
+.diachi1{
+    font-size: 20px
+}
+.call-tell{
+    font-size: 20px
+
+
+}
+.sale,.box_user{
+    box-shadow: 0px 10px 10px white;
+}
+/* .box_user1{
+    float:left;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition:1s;
+} */
+
+.float_left{
+    float: left;
+}
+
+.clear_left{
+    clear: left;
+}
+
+.float_left_footer{
+    float: left;
+    width:100%/33%;
+    margin: 20px;
+}
+
+.clear_left_footer{
+    clear: left;
+    width:100/33%;
+}
+
+.box_user{
+    float: left;
+    margin:65px;
+    margin-left:55px;
+    width:250px;
+    height:400px;
+}
+
+.nuoc{
+    width:250px;
+    height: 250px;
+}
+.font_name{
+    font-size: 15px;
+}
+.font_lightblue{
+    color: rgb(220, 8, 174);
+    font-size:15px;
+}
+.font_yellow{
+    color:rgb(16, 114, 75);
+    text-shadow: 0px 0px 20px white;
+    font-size: 20px;
+}
+.font_white{
+    color:white;
+}
+.font_black{
+    color:black;
+}
+.font_blue{
+    color:rgb(45, 76, 214);
+}
+.font_lightgreen{
+    color:rgb(245, 31, 16);
+    font-size: 15px;
+}
+.full-width{
+    width:100%;
+}
+.uf_range{
+    margin:50px;
+}
+.font_giohang{
+    color:rgb(0, 255, 42);
+    text-shadow: 0px 0px 20px white;
+    font-size:15px;
+}
+/* .font_giohang:hover{
+    background-color: black;
+    color:rgb(0, 255, 42);
+    font-size: 15px;
+} */
+.table_thanh_toan{
+    font-size: 20px;
+    font-weight: 20px;
+    background-color:rgb(125, 170, 255);
+    text-shadow:0px 0px 10px white;
+    box-shadow: 5px 5px 20px;
+}
+.btn_xoa_spgh{
+    color:lightseagreen;
+    border:lightseagreen;
+}
+.btn_xoa_spgh:hover{
+    color:red;
+    border:red;
+}
+/* 
+@media screen and (max-width: 1000px){
+    .box_user{
+        width:100%;
+        float:none;
+    }
+} */
+
+/*button tăng giảm số lượng*/
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:black;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    /* text-shadow:1px 1px 1px #fff; */
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+    font-weight: bold;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+    font-weight: bold;
+}
+.input-qty {
+    background-color:black;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.font_black_bold{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.go-top{
+    transition:1s;
+}
+.hreflink:hover{
+    color:white;
+    font-weight:bold;
+}
